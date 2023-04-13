@@ -31,7 +31,7 @@ public class Main {
         Arrays.sort(a);
         Arrays.sort(b, Comparator.reverseOrder());
         int min = Math.min(a.length, b.length);
-        Integer result = 0;
+        long result = 0;
         for (int i = 0; i < min; i++) {
             if ((b[i] - a[i]) < 0) {
                 break;
